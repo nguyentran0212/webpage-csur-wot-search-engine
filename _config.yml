@@ -1,0 +1,22 @@
+# Site identity
+title: "Searching the Web of Things — State of the Art, Challenges, and Solutions"
+description: "Paper page for Tran, Sheng, Babar & Yao (2017), ACM Computing Surveys Vol. 50, No. 4, pp. 1–34."
+author: "Nguyen Khoi Tran, Quan Z. Sheng, Muhammad Ali Babar, Lina Yao"
+
+# Deployment
+baseurl: "/webpage-csur-wot-search-engine"
+url: "https://nguyentran0212.github.io"
+
+# Markdown engine
+markdown: kramdown
+highlighter: rouge
+
+# Plugins (none for now — keep it simple)
+plugins: []
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
