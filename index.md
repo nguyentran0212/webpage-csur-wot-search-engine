@@ -89,7 +89,7 @@ description: "A systematic survey of over 200 Web of Things search-engine works,
     <h2>The motivation</h2>
     <p>
       The World Wide Web is being extended to physical objects. Each object exposes a
-      digital counterpart — a Web Thing — accessible over HTTP, with JSON or HTML
+      digital counterpart (a Web Thing) accessible over HTTP, with JSON or HTML
       representations and RESTful APIs. Applications no longer hard-code which lamp,
       thermometer, or location service they talk to; they query a search engine that
       <em>discovers</em> resources in a given scope and returns the ones that match.
@@ -115,14 +115,14 @@ description: "A systematic survey of over 200 Web of Things search-engine works,
   <div class="container">
     <h2>Two contributions: a model and an architecture</h2>
     <p>
-      WoTSE in the literature look very different — some locate RFID-tagged objects in a room,
+      WoTSE in the literature look very different. Some locate RFID-tagged objects in a room,
       others index streaming sensor data, others expose semantic descriptions of physical
       functionalities. To capture this diversity, the survey introduces two complementary
       abstractions:
     </p>
     <ul class="framework-list">
-      <li><strong>Meta-path</strong> — the signature of a WoTSE. Describes the types of resources used to assess a query, the chain of objects linking them, and the resources used to build results.</li>
-      <li><strong>Modular architecture</strong> — a layered reference architecture (Discovery, Index, Search, UI) plus a vertical Security/Privacy/Trust layer that any WoTSE can be decomposed into.</li>
+      <li><strong>Meta-path</strong>: the signature of a WoTSE. Describes the types of resources used to assess a query, the chain of objects linking them, and the resources used to build results.</li>
+      <li><strong>Modular architecture</strong>: a layered reference architecture (Discovery, Index, Search, UI) plus a vertical Security/Privacy/Trust layer that any WoTSE can be decomposed into.</li>
     </ul>
 
     <figure class="figure">
@@ -171,13 +171,13 @@ description: "A systematic survey of over 200 Web of Things search-engine works,
 <section class="section">
   <div class="container">
     <h2>What the literature is actually doing</h2>
-    <p>A selection of the patterns the survey surfaces across the 30 prototypes:</p>
+    <p>Here are some of the patterns the survey surfaces across the 30 prototypes.</p>
 
     <div class="finding">
       <h3>Most common forms of WoT search</h3>
       <div class="finding-grid">
-        <div class="finding-item"><span class="num">R → R</span><span class="lbl">finding objects by <strong>ID or metadata</strong> — the dominant form</span></div>
-        <div class="finding-item"><span class="num">R + D → Obj → R</span><span class="lbl">finding objects by their <strong>real-time state</strong> (e.g. sensor readings)</span></div>
+        <div class="finding-item"><span class="num">R → R</span><span class="lbl">finding objects by <strong>ID or metadata</strong> (the dominant form)</span></div>
+        <div class="finding-item"><span class="num">R + D → Obj → R</span><span class="lbl">finding objects by their <strong>real-time state</strong> (for example, sensor readings)</span></div>
         <div class="finding-item"><span class="num">D → D</span><span class="lbl">indexing and searching <strong>sensor streams</strong></span></div>
       </div>
     </div>
@@ -263,8 +263,7 @@ description: "A systematic survey of over 200 Web of Things search-engine works,
 
 <section class="section section--alt">
   <div class="container">
-    <h2>Cite this paper</h2>
-    <p>BibTeX entry (metadata from the paper repository's <code>BIBTEX</code> file):</p>
+    <h2>BibTeX</h2>
     <pre class="bibtex"><code>@article{tran2017searching,
   title={Searching the web of things: state of the art, challenges, and solutions},
   author={Tran, Nguyen Khoi and Sheng, Quan Z and Babar, Muhammad Ali and Yao, Lina},
